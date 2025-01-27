@@ -1,0 +1,602 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "fullName": "John Doe",
+        "email": "johndoe@example.com",
+        "isStaff": true
+      },
+      {
+        "id": 2,
+        "fullName": "Jane Smith",
+        "email": "janesmith@example.com",
+        "isStaff": true
+      },
+      {
+        "id": 3,
+        "fullName": "Alice Johnson",
+        "email": "alicejohnson@example.com",
+        "isStaff": true
+      },
+      {
+        "id": 4,
+        "fullName": "Bob Brown",
+        "email": "bobbrown@example.com",
+        "isStaff": true
+      },
+      {
+        "id": 5,
+        "fullName": "Carol White",
+        "email": "carolwhite@example.com",
+        "isStaff": true
+      },
+      {
+        "id": 6,
+        "fullName": "David Lee",
+        "email": "davidlee@example.com",
+        "isStaff": true
+      },
+      {
+        "id": 7,
+        "fullName": "Ella Davis",
+        "email": "elladavis@example.com",
+        "isStaff": true
+      },
+      {
+        "id": 8,
+        "fullName": "Frank Harris",
+        "email": "frankharris@example.com",
+        "isStaff": true
+      },
+      {
+        "id": 9,
+        "fullName": "Grace King",
+        "email": "graceking@example.com",
+        "isStaff": true
+      },
+      {
+        "id": 10,
+        "fullName": "Henry Moore",
+        "email": "henrymoore@example.com",
+        "isStaff": true
+      },
+      {
+        "id": 11,
+        "fullName": "Isla Scott",
+        "email": "islascott@example.com",
+        "isStaff": false
+      },
+      {
+        "id": 12,
+        "fullName": "Jack Taylor",
+        "email": "jacktaylor@example.com",
+        "isStaff": false
+      },
+      {
+        "id": 13,
+        "fullName": "Katie Wilson",
+        "email": "katiewilson@example.com",
+        "isStaff": false
+      },
+      {
+        "id": 14,
+        "fullName": "Leo Martinez",
+        "email": "leomartinez@example.com",
+        "isStaff": false
+      },
+      {
+        "id": 15,
+        "fullName": "Mia Anderson",
+        "email": "miaanderson@example.com",
+        "isStaff": false
+      }
+    ],
+
+    "admin": [
+        {
+          "id": 1,
+          "rate": 5,
+          "title": "Admin",
+          "address": "123 Main St, Springfield",
+          "phoneNumber": 1234567890,
+          "userId": 1
+        },
+        {
+          "id": 2,
+          "rate": 4,
+          "title": "Admin",
+          "address": "456 Oak Ave, Greenville",
+          "phoneNumber": 9876543210,
+          "userId": 2
+        },
+        {
+          "id": 3,
+          "rate": 5,
+          "title": "Admin",
+          "address": "789 Pine Dr, Hilltown",
+          "phoneNumber": 5551234567,
+          "userId": 3
+        },
+        {
+          "id": 4,
+          "rate": 3,
+          "title": "Admin",
+          "address": "321 Elm St, Riverdale",
+          "phoneNumber": 6669876543,
+          "userId": 4
+        },
+        {
+          "id": 5,
+          "rate": 4,
+          "title": "Admin",
+          "address": "654 Maple Blvd, Lakeside",
+          "phoneNumber": 4447890123,
+          "userId": 5
+        },
+        {
+          "id": 6,
+          "rate": 5,
+          "title": "Admin",
+          "address": "987 Cedar Lane, Hillview",
+          "phoneNumber": 3334567890,
+          "userId": 6
+        },
+        {
+          "id": 7,
+          "rate": 3,
+          "title": "Admin",
+          "address": "159 Birch Ct, Meadowland",
+          "phoneNumber": 2223456789,
+          "userId": 7
+        },
+        {
+          "id": 8,
+          "rate": 4,
+          "title": "Admin",
+          "address": "753 Willow Way, Brookfield",
+          "phoneNumber": 1112345678,
+          "userId": 8
+        },
+        {
+          "id": 9,
+          "rate": 5,
+          "title": "Admin",
+          "address": "852 Cherry Rd, Clearview",
+          "phoneNumber": 9998765432,
+          "userId": 9
+        },
+        {
+          "id": 10,
+          "rate": 4,
+          "title": "Admin",
+          "address": "456 Spruce St, Baytown",
+          "phoneNumber": 8887654321,
+          "userId": 10
+        }
+      ],
+
+      "customer": [
+        {
+          "id": 1,
+          "address": "123 Main St, Springfield",
+          "phoneNumber": 1234567890,
+          "userId": 201
+        },
+        {
+          "id": 2,
+          "address": "456 Oak Ave, Greenville",
+          "phoneNumber": 9876543210,
+          "userId": 202
+        },
+        {
+          "id": 3,
+          "address": "789 Pine Dr, Hilltown",
+          "phoneNumber": 5551234567,
+          "userId": 203
+        },
+        {
+          "id": 4,
+          "address": "321 Elm St, Riverdale",
+          "phoneNumber": 6669876543,
+          "userId": 204
+        },
+        {
+          "id": 5,
+          "address": "654 Maple Blvd, Lakeside",
+          "phoneNumber": 4447890123,
+          "userId": 205
+        },
+        {
+          "id": 6,
+          "address": "987 Cedar Lane, Hillview",
+          "phoneNumber": 3334567890,
+          "userId": 206
+        },
+        {
+          "id": 7,
+          "address": "159 Birch Ct, Meadowland",
+          "phoneNumber": 2223456789,
+          "userId": 207
+        },
+        {
+          "id": 8,
+          "address": "753 Willow Way, Brookfield",
+          "phoneNumber": 1112345678,
+          "userId": 208
+        },
+        {
+          "id": 9,
+          "address": "852 Cherry Rd, Clearview",
+          "phoneNumber": 9998765432,
+          "userId": 209
+        },
+        {
+          "id": 10,
+          "address": "456 Spruce St, Baytown",
+          "phoneNumber": 8887654321,
+          "userId": 210
+        },
+        {
+          "id": 11,
+          "address": "789 Walnut St, Greenfield",
+          "phoneNumber": 7776543210,
+          "userId": 211
+        },
+        {
+          "id": 12,
+          "address": "963 Ash Dr, Woodbridge",
+          "phoneNumber": 6665432109,
+          "userId": 212
+        },
+        {
+          "id": 13,
+          "address": "741 Poplar Ct, Fairview",
+          "phoneNumber": 5554321098,
+          "userId": 213
+        },
+        {
+          "id": 14,
+          "address": "258 Cypress Ave, Rosewood",
+          "phoneNumber": 4443210987,
+          "userId": 214
+        },
+        {
+          "id": 15,
+          "address": "357 Dogwood Ln, Sunnyvale",
+          "phoneNumber": 3332109876,
+          "userId": 215
+        },
+        {
+          "id": 16,
+          "address": "159 Redwood St, Willowville",
+          "phoneNumber": 2221098765,
+          "userId": 216
+        },
+        {
+          "id": 17,
+          "address": "864 Magnolia Blvd, Hilltop",
+          "phoneNumber": 1110987654,
+          "userId": 217
+        },
+        {
+          "id": 18,
+          "address": "975 Fir Rd, Cedar Grove",
+          "phoneNumber": 9999876543,
+          "userId": 218
+        },
+        {
+          "id": 19,
+          "address": "432 Chestnut St, Harborview",
+          "phoneNumber": 8888765432,
+          "userId": 219
+        },
+        {
+          "id": 20,
+          "address": "321 Willow St, Lakewood",
+          "phoneNumber": 7777654321,
+          "userId": 220
+        },
+        {
+          "id": 21,
+          "address": "654 Elm Ct, Midtown",
+          "phoneNumber": 6666543210,
+          "userId": 221
+        },
+        {
+          "id": 22,
+          "address": "876 Birch Blvd, Westwood",
+          "phoneNumber": 5555432109,
+          "userId": 222
+        },
+        {
+          "id": 23,
+          "address": "123 Spruce Dr, Eastside",
+          "phoneNumber": 4444321098,
+          "userId": 223
+        },
+        {
+          "id": 24,
+          "address": "741 Maple Ln, Southview",
+          "phoneNumber": 3333210987,
+          "userId": 224
+        },
+        {
+          "id": 25,
+          "address": "258 Oak Ct, Summitville",
+          "phoneNumber": 2222109876,
+          "userId": 225
+        },
+        {
+          "id": 26,
+          "address": "975 Pine Blvd, Bridgeport",
+          "phoneNumber": 1111098765,
+          "userId": 226
+        },
+        {
+          "id": 27,
+          "address": "864 Cedar Dr, Crestwood",
+          "phoneNumber": 9991987654,
+          "userId": 227
+        },
+        {
+          "id": 28,
+          "address": "357 Fir St, Oldtown",
+          "phoneNumber": 8882976543,
+          "userId": 228
+        },
+        {
+          "id": 29,
+          "address": "432 Chestnut Ln, Newdale",
+          "phoneNumber": 7773987654,
+          "userId": 229
+        },
+        {
+          "id": 30,
+          "address": "123 Magnolia Ave, Pineville",
+          "phoneNumber": 6664987653,
+          "userId": 230
+        }
+      ],
+
+      "entrees": [
+        {
+          "id": 1,
+          "description": "Grilled Chicken Salad with Avocado and Lemon Dressing",
+          "cost": 12
+        },
+        {
+          "id": 2,
+          "description": "Quinoa Bowl with Roasted Vegetables and Tahini Sauce",
+          "cost": 14
+        },
+        {
+          "id": 3,
+          "description": "Baked Salmon with Steamed Broccoli and Brown Rice",
+          "cost": 18
+        },
+        {
+          "id": 4,
+          "description": "Vegetarian Lentil Curry with Whole-Grain Naan",
+          "cost": 13
+        },
+        {
+          "id": 5,
+          "description": "Zucchini Noodles with Pesto and Grilled Shrimp",
+          "cost": 16
+        },
+        {
+          "id": 6,
+          "description": "Spinach and Kale Wrap with Hummus and Grilled Vegetables",
+          "cost": 10
+        },
+        {
+          "id": 7,
+          "description": "Grilled Turkey Burger on a Whole-Grain Bun with Sweet Potato Fries",
+          "cost": 15
+        },
+        {
+          "id": 8,
+          "description": "Stuffed Bell Peppers with Quinoa, Black Beans, and Salsa",
+          "cost": 12
+        },
+        {
+          "id": 9,
+          "description": "Tofu Stir-Fry with Mixed Vegetables and Brown Rice",
+          "cost": 14
+        },
+        {
+          "id": 10,
+          "description": "Mediterranean Chickpea Salad with Lemon Vinaigrette",
+          "cost": 11
+        }
+      ],
+
+      "sides": [
+        {
+          "id": 1,
+          "description": "Steamed Asparagus with Olive Oil",
+          "cost": 5
+        },
+        {
+          "id": 2,
+          "description": "Roasted Sweet Potato Wedges",
+          "cost": 6
+        },
+        {
+          "id": 3,
+          "description": "Quinoa Salad with Cranberries and Almonds",
+          "cost": 7
+        },
+        {
+          "id": 4,
+          "description": "Garlic Sautéed Spinach",
+          "cost": 4
+        },
+        {
+          "id": 5,
+          "description": "Fresh Fruit Salad",
+          "cost": 6
+        },
+        {
+          "id": 6,
+          "description": "Cucumber and Tomato Salad with Dill",
+          "cost": 5
+        },
+        {
+          "id": 7,
+          "description": "Roasted Brussel Sprouts with Balsamic Glaze",
+          "cost": 6
+        },
+        {
+          "id": 8,
+          "description": "Hummus with Fresh Veggie Sticks",
+          "cost": 5
+        },
+        {
+          "id": 9,
+          "description": "Baked Zucchini Fries",
+          "cost": 6
+        },
+        {
+          "id": 10,
+          "description": "Mixed Green Salad with Lemon Vinaigrette",
+          "cost": 5
+        }
+      ],
+
+      "drinks": [
+        {
+          "id": 1,
+          "description": "Freshly Squeezed Orange Juice",
+          "cost": 4
+        },
+        {
+          "id": 2,
+          "description": "Green Smoothie with Kale, Spinach, and Pineapple",
+          "cost": 6
+        },
+        {
+          "id": 3,
+          "description": "Coconut Water with Lime",
+          "cost": 5
+        },
+        {
+          "id": 4,
+          "description": "Iced Matcha Latte with Almond Milk",
+          "cost": 7
+        },
+        {
+          "id": 5,
+          "description": "Berry Blast Smoothie with Strawberries and Blueberries",
+          "cost": 6
+        },
+        {
+          "id": 6,
+          "description": "Herbal Iced Tea with Mint and Lemon",
+          "cost": 4
+        },
+        {
+          "id": 7,
+          "description": "Infused Water with Cucumber, Lemon, and Mint",
+          "cost": 3
+        },
+        {
+          "id": 8,
+          "description": "Cold-Pressed Carrot and Ginger Juice",
+          "cost": 5
+        },
+        {
+          "id": 9,
+          "description": "Turmeric Golden Milk with Coconut Milk",
+          "cost": 6
+        },
+        {
+          "id": 10,
+          "description": "Fresh Watermelon Juice",
+          "cost": 4
+        }
+      ],
+
+      "placedOrders": [
+        {
+          "id": 1,
+          "entreeId": 3,
+          "sideId": 2,
+          "drinkId": 1,
+          "customerId": 1,
+          "adminId": 1
+        },
+        {
+          "id": 2,
+          "entreeId": 5,
+          "sideId": 4,
+          "drinkId": 6,
+          "customerId": 2,
+          "adminId": 2
+        },
+        {
+          "id": 3,
+          "entreeId": 8,
+          "sideId": 6,
+          "drinkId": 3,
+          "customerId": 3,
+          "adminId": 3
+        },
+        {
+          "id": 4,
+          "entreeId": 2,
+          "sideId": 7,
+          "drinkId": 9,
+          "customerId": 4,
+          "adminId": 4
+        },
+        {
+          "id": 5,
+          "entreeId": 6,
+          "sideId": 8,
+          "drinkId": 5,
+          "customerId": 5,
+          "adminId": 5
+        },
+        {
+          "id": 6,
+          "entreeId": 4,
+          "sideId": 10,
+          "drinkId": 8,
+          "customerId": 6,
+          "adminId": 6
+        },
+        {
+          "id": 7,
+          "entreeId": 7,
+          "sideId": 1,
+          "drinkId": 2,
+          "customerId": 7,
+          "adminId": 7
+        },
+        {
+          "id": 8,
+          "entreeId": 1,
+          "sideId": 5,
+          "drinkId": 4,
+          "customerId": 8,
+          "adminId": 8
+        },
+        {
+          "id": 9,
+          "entreeId": 9,
+          "sideId": 3,
+          "drinkId": 7,
+          "customerId": 9,
+          "adminId": 9
+        },
+        {
+          "id": 10,
+          "entreeId": 10,
+          "sideId": 9,
+          "drinkId": 10,
+          "customerId": 10,
+          "adminId": 10
+        }
+      ]
+}
