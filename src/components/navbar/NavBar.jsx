@@ -16,13 +16,10 @@ export const NavBar = () => {
       {/* (6) Each link should include the full path name in a to-"" attribute. */}
       {/* (7) Each Nav Bar element requires text to visually cue the user. <link>Text Here</link>. */}
       <li className="navbar-item">
-        <Link to="/orders">All Orders</Link>
-      </li>
-      <li className="navbar-item">
-        <Link to="/orders/new">New Order</Link>
-      </li>
-      <li className="navbar-item">
         <Link to="/employees">Employees</Link>
+      </li>
+      <li className="navbar-item">
+        <Link to="/orders">Orders</Link>
       </li>
       <li className="navbar-item">
         <Link to="/sales-report">Sales Report</Link>
