@@ -96,7 +96,7 @@
         {
           "id": 1,
           "rate": 5,
-          "title": "System Administrator",
+          "title": "Admin",
           "address": "123 Main St, Springfield",
           "phoneNumber": 1234567890,
           "userId": 1
@@ -104,7 +104,7 @@
         {
           "id": 2,
           "rate": 4,
-          "title": "Network Administrator",
+          "title": "Admin",
           "address": "456 Oak Ave, Greenville",
           "phoneNumber": 9876543210,
           "userId": 2
@@ -112,7 +112,7 @@
         {
           "id": 3,
           "rate": 5,
-          "title": "Database Administrator",
+          "title": "Admin",
           "address": "789 Pine Dr, Hilltown",
           "phoneNumber": 5551234567,
           "userId": 3
@@ -120,7 +120,7 @@
         {
           "id": 4,
           "rate": 3,
-          "title": "IT Manager",
+          "title": "Admin",
           "address": "321 Elm St, Riverdale",
           "phoneNumber": 6669876543,
           "userId": 4
@@ -128,7 +128,7 @@
         {
           "id": 5,
           "rate": 4,
-          "title": "Support Specialist",
+          "title": "Admin",
           "address": "654 Maple Blvd, Lakeside",
           "phoneNumber": 4447890123,
           "userId": 5
@@ -136,7 +136,7 @@
         {
           "id": 6,
           "rate": 5,
-          "title": "Security Analyst",
+          "title": "Admin",
           "address": "987 Cedar Lane, Hillview",
           "phoneNumber": 3334567890,
           "userId": 6
@@ -144,7 +144,7 @@
         {
           "id": 7,
           "rate": 3,
-          "title": "System Engineer",
+          "title": "Admin",
           "address": "159 Birch Ct, Meadowland",
           "phoneNumber": 2223456789,
           "userId": 7
@@ -152,7 +152,7 @@
         {
           "id": 8,
           "rate": 4,
-          "title": "Cloud Architect",
+          "title": "Admin",
           "address": "753 Willow Way, Brookfield",
           "phoneNumber": 1112345678,
           "userId": 8
@@ -160,7 +160,7 @@
         {
           "id": 9,
           "rate": 5,
-          "title": "DevOps Engineer",
+          "title": "Admin",
           "address": "852 Cherry Rd, Clearview",
           "phoneNumber": 9998765432,
           "userId": 9
@@ -168,7 +168,7 @@
         {
           "id": 10,
           "rate": 4,
-          "title": "Project Coordinator",
+          "title": "Admin",
           "address": "456 Spruce St, Baytown",
           "phoneNumber": 8887654321,
           "userId": 10
