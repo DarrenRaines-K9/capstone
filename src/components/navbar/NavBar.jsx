@@ -2,7 +2,8 @@
 // No matter which page they may be on, they will have the ability to navigate to any other page readily available
 // through a navigation bar. The navigation bar will be generated after log in and will persist through all views.
 
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import "./Navbar.css"
 // Tasks:
 // (1) This is a new component. It should be found in the components folder, under a new folder.
