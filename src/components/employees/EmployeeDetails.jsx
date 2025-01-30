@@ -36,6 +36,10 @@ return (
         <span className="details-info"> Phone Number : </span>
         {admin.phoneNumber}
     </div>
+    <div>
+        <span className="details-info"> Title: </span>
+        {admin.title}
+    </div>
 </section>
 )
 
