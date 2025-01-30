@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { getAllUser } from "../../services/employeeService";
 import { useState, useEffect } from "react";
 import "./Employee.css"
+import { User } from "../users/User";
 
 export const EmployeeList = () => {
   const [Admin, setAdmin] = useState([]);
@@ -15,12 +16,8 @@ export const EmployeeList = () => {
   return (
     <div className="users">
       {Admin.map((u) => (
-        <Link className="all-users" key={u.id} to={`/employee/${u.id}`}>
-         <div className="user">
-          <section className="user-Header">{u.fullName}</section>
-          <section className="user-info">{u.email}</section>
-          <section className="user-info">{u.isAdmin}</section>
-         </div>
+        <Link className="all-users" key={u.id} to={`/employees/${u.id}`}>
+        <User user={u} />
         </Link>
       ))}
     </div>
