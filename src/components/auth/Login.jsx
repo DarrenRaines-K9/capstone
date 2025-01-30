@@ -3,7 +3,7 @@ import { useState } from "react"
 import { Link } from "react-router-dom"
 import { useNavigate } from "react-router-dom"
 import "./Login.css"
-import { getUserByEmail } from "../../services/adminService"
+import { getUserByEmail } from "../../services/employeeService.js"
 
 export const Login = () => {
   const [email, set] = useState("johndoe@example.com")
