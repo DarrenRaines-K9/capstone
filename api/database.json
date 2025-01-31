@@ -215,7 +215,7 @@
         }
       ],
 
-      "customer": [
+      "customers": [
         {
           "id": 1,
           "address": "123 Main St, Springfield",

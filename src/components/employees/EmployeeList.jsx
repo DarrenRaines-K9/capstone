@@ -17,7 +17,7 @@ export const EmployeeList = () => {
       {Admin.map((u) => (
         <Link className="all-users" key={u.id} to={`/employees/${u.id}`}>
          <div className="user">
-          <section className="user-Header">{u.fullName}</section>
+          <section className="user-header">{u.fullName}</section>
           <section className="user-info">{u.email}</section>
           <section className="user-info">{u.isAdmin}</section>
          </div>
