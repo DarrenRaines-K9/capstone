@@ -4,6 +4,7 @@ import { NavBar } from "../components/navbar/NavBar"
 import { Welcome } from "../components/welcome/Welcome"
 import { EmployeeList } from "../components/employees/EmployeeList"
 import { EmployeeDetails } from "../components/employees/EmployeeDetails"
+import { OrderList } from "../components/orders/OrderList"
 
 
 
@@ -22,11 +23,13 @@ export const ApplicationViews = () => {
       }>
         <Route index element={<Welcome />} />
           <Route path="employees">
-          <Route index element={<EmployeeList />} />
+           <Route index element={<EmployeeList />} />
           <Route path=":employeeId" element={<EmployeeDetails/>} />
           <Route path="edit/:employeeId" element={<>Edit Employee Details</>} />
-
-        </Route>    
+        </Route> 
+        <Route path="orders">
+          <Route index element={<OrderList/>}/>
+          </Route>   
       </Route>
     </Routes >
   </>)

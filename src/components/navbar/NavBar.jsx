@@ -3,13 +3,13 @@
 // through a navigation bar. The navigation bar will be generated after log in and will persist through all views.
 
 import { Link, useNavigate } from "react-router-dom";
-import { Navigate } from "react-router-dom";
 import "./Navbar.css"
 // Tasks:
 // (1) This is a new component. It should be found in the components folder, under a new folder.
 // (2) This component will need to be written in a file, it will require a file.
 // (3) This component's function will be used in routing, therefore, it will exported.
 export const NavBar = () => {
+  const navigate = useNavigate()
   // (4) In the component function's return, the return should be wrapped in <ul> elements. It lists.
   return (
     <ul className="navbar">
