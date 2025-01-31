@@ -18,8 +18,7 @@ export const EmployeeList = () => {
         <Link className="all-users" key={u.id} to={`/employees/${u.id}`}>
          <div className="user">
           <section className="user-header">{u.fullName}</section>
-          <section className="user-info">{u.email}</section>
-          <section className="user-info">{u.isAdmin}</section>
+          <section className="user-info">Phone Number: {u.phoneNumber}</section>
          </div>
         </Link>
       ))}

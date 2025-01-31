@@ -3,3 +3,9 @@ export const getAllOrders = () => {
         (res) => res.json()
     )
 }
+export const getOrderById = (id) => {
+    return fetch(`http://localhost:8088/placedOrders?id=${id}&_expand=admin&_expand=customer&_expand=entree&_expand=drink&_expand=side`).then(
+        (res) => res.json()
+    )
+}
+
