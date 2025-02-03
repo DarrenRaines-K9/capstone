@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"
 import { getAdminById } from "../../services/adminService"
 import { useParams } from "react-router-dom"
 import "./EmployeeDetails.css"
-import { updateAdmin } from "../../services/updateAdmin"
+import { deleteAdmin, updateAdmin } from "../../services/updateAdmin"
 
 export const EmployeeDetails = () => {
     const [admin, setAdmin] = useState([])
@@ -25,6 +25,11 @@ const handleInputChange = (e) => {
 const handleSaveChanges = () => {
     updateAdmin({...admin}).then(() => {
         window.alert("Employee Info Updated")
+    })
+}
+const handleDeleteEmployee = () => {
+    deleteAdmin({...admin}).then(() => {
+        window.alert("Employee Deleted")
     })
 }
 
@@ -62,7 +67,8 @@ return (
         </div>
     </div>
     <div>
-    <button className="save-btn" onClick={handleSaveChanges}>Save Changes</button>
+    <button className="btn" onClick={handleSaveChanges}>Save Changes</button>
+    <button className="btn" onClick={handleDeleteEmployee}>Delete</button>
     </div>
 </section>
 )

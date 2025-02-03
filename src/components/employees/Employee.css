@@ -19,10 +19,6 @@
     margin: 3rem 10rem 10rem 10rem;
   }
 
-  .save-btn {
-    float: right;
-    background-color: var(--primary);
-  }
 
   .user {
     background-color: var(--white);

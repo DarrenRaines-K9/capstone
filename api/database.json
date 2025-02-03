@@ -78,20 +78,6 @@
   ],
   "admins": [
     {
-      "id": 1,
-      "rate": "20",
-      "title": "Admin",
-      "fullName": "John Doe",
-      "address": "123 Main St, Springfield",
-      "phoneNumber": "222222222",
-      "userId": 1,
-      "user": {
-        "id": 1,
-        "email": "johndoe@example.com",
-        "isAdmin": true
-      }
-    },
-    {
       "id": 2,
       "rate": 4,
       "title": "Admin",
@@ -198,268 +184,250 @@
       "address": "654 Pine St, Lakeside",
       "phoneNumber": 8883456789,
       "userId": 13
-    },
-    {
-      "id": 14,
-      "rate": 2,
-      "title": "Admin",
-      "fullName": "Leo Martinez",
-      "address": "987 Cedar St, Mountainview",
-      "phoneNumber": 8884567890,
-      "userId": 14
-    },
-    {
-      "id": 15,
-      "rate": 5,
-      "title": "Admin",
-      "fullName": "Mia Anderson",
-      "address": "159 Maple St, Creekside",
-      "phoneNumber": 8885678901,
-      "userId": 15
     }
   ],
   "customers": [
     {
-      "id": 1,
-      "fullName": "John Doe",
-      "email": "cjohn.doe@example.com",
-      "address": "123 Main St, Springfield",
-      "phoneNumber": 1234567890,
-      "userId": 201
-    },
-    {
-      "id": 2,
-      "fullName": "Jane Smith",
-      "email": "cane.smith@example.com",
-      "address": "456 Oak Ave, Greenville",
-      "phoneNumber": 9876543210,
-      "userId": 202
-    },
-    {
-      "id": 3,
-      "fullName": "Michael Johnson",
-      "email": "cichael.johnson@example.com",
-      "address": "789 Pine Dr, Hilltown",
-      "phoneNumber": 5551234567,
-      "userId": 203
-    },
-    {
-      "id": 4,
-      "fullName": "Emily Davis",
-      "email": "cemily.davis@example.com",
-      "address": "321 Elm St, Riverdale",
-      "phoneNumber": 6669876543,
-      "userId": 204
-    },
-    {
-      "id": 5,
-      "fullName": "William Brown",
-      "email": "cwilliam.brown@example.com",
-      "address": "654 Maple Blvd, Lakeside",
-      "phoneNumber": 4447890123,
-      "userId": 205
-    },
-    {
-      "id": 6,
-      "fullName": "Olivia Wilson",
-      "email": "colivia.wilson@example.com",
-      "address": "987 Cedar Lane, Hillview",
-      "phoneNumber": 3334567890,
-      "userId": 206
-    },
-    {
-      "id": 7,
-      "fullName": "James Anderson",
-      "email": "cjames.anderson@example.com",
-      "address": "159 Birch Ct, Meadowland",
-      "phoneNumber": 2223456789,
-      "userId": 207
-    },
-    {
-      "id": 8,
-      "fullName": "Sophia Martinez",
-      "email": "csophia.martinez@example.com",
-      "address": "753 Willow Way, Brookfield",
-      "phoneNumber": 1112345678,
-      "userId": 208
-    },
-    {
-      "id": 9,
-      "fullName": "Daniel Thomas",
-      "email": "cdaniel.thomas@example.com",
-      "address": "852 Cherry Rd, Clearview",
-      "phoneNumber": 9998765432,
-      "userId": 209
-    },
-    {
-      "id": 10,
-      "fullName": "Emma Hernandez",
-      "email": "cemma.hernandez@example.com",
-      "address": "456 Spruce St, Baytown",
-      "phoneNumber": 8887654321,
-      "userId": 210
-    },
-    {
-      "id": 11,
-      "fullName": "Liam Moore",
-      "email": "ciam.moore@example.com",
-      "address": "789 Walnut St, Greenfield",
-      "phoneNumber": 7776543210,
-      "userId": 211
-    },
-    {
-      "id": 12,
-      "fullName": "Isabella Taylor",
-      "email": "cisabella.taylor@example.com",
-      "address": "963 Ash Dr, Woodbridge",
-      "phoneNumber": 6665432109,
-      "userId": 212
-    },
-    {
-      "id": 13,
-      "fullName": "Mason White",
-      "email": "cmason.white@example.com",
-      "address": "741 Poplar Ct, Fairview",
-      "phoneNumber": 5554321098,
-      "userId": 213
-    },
-    {
-      "id": 14,
-      "fullName": "Charlotte Harris",
-      "email": "chcarlotte.harris@example.com",
-      "address": "258 Cypress Ave, Rosewood",
-      "phoneNumber": 4443210987,
-      "userId": 214
-    },
-    {
-      "id": 15,
-      "fullName": "Benjamin Clark",
-      "email": "cbenjamin.clark@example.com",
-      "address": "357 Dogwood Ln, Sunnyvale",
-      "phoneNumber": 3332109876,
-      "userId": 215
-    },
-    {
-      "id": 16,
-      "fullName": "Amelia Lewis",
-      "email": "camelia.lewis@example.com",
-      "address": "159 Redwood St, Willowville",
-      "phoneNumber": 2221098765,
-      "userId": 216
-    },
-    {
-      "id": 17,
-      "fullName": "Ethan Walker",
-      "email": "cethan.walker@example.com",
-      "address": "864 Magnolia Blvd, Hilltop",
-      "phoneNumber": 1110987654,
-      "userId": 217
-    },
-    {
-      "id": 18,
-      "fullName": "Harper Hall",
-      "email": "carper.hall@example.com",
-      "address": "975 Fir Rd, Cedar Grove",
-      "phoneNumber": 9999876543,
-      "userId": 218
-    },
-    {
-      "id": 19,
-      "fullName": "Alexander Allen",
-      "email": "calexander.allen@example.com",
-      "address": "432 Chestnut St, Harborview",
-      "phoneNumber": 8888765432,
-      "userId": 219
-    },
-    {
-      "id": 20,
-      "fullName": "Mia Young",
-      "email": "cmia.young@example.com",
-      "address": "321 Willow St, Lakewood",
-      "phoneNumber": 7777654321,
-      "userId": 220
-    },
-    {
-      "id": 21,
-      "fullName": "Elijah King",
-      "email": "eclijah.king@example.com",
-      "address": "654 Elm Ct, Midtown",
-      "phoneNumber": 6666543210,
-      "userId": 221
-    },
-    {
-      "id": 22,
-      "fullName": "Avery Scott",
-      "email": "acvery.scott@example.com",
-      "address": "876 Birch Blvd, Westwood",
-      "phoneNumber": 5555432109,
-      "userId": 222
-    },
-    {
-      "id": 23,
-      "fullName": "Sebastian Adams",
-      "email": "secastian.adams@example.com",
-      "address": "123 Spruce Dr, Eastside",
-      "phoneNumber": 4444321098,
-      "userId": 223
-    },
-    {
-      "id": 24,
-      "fullName": "Abigail Baker",
-      "email": "abcigail.baker@example.com",
-      "address": "741 Maple Ln, Southview",
-      "phoneNumber": 3333210987,
-      "userId": 224
-    },
-    {
-      "id": 25,
-      "fullName": "Jack Nelson",
-      "email": "jack.nelson@example.com",
-      "address": "258 Oak Ct, Summitville",
-      "phoneNumber": 2222109876,
-      "userId": 225
-    },
-    {
-      "id": 26,
-      "fullName": "Emily Carter",
-      "email": "ecmily.carter@example.com",
-      "address": "975 Pine Blvd, Bridgeport",
-      "phoneNumber": 1111098765,
-      "userId": 226
-    },
-    {
-      "id": 27,
-      "fullName": "Henry Mitchell",
-      "email": "hecnry.mitchell@example.com",
-      "address": "864 Cedar Dr, Crestwood",
-      "phoneNumber": 9991987654,
-      "userId": 227
-    },
-    {
-      "id": 28,
-      "fullName": "Sofia Perez",
-      "email": "socfia.perez@example.com",
-      "address": "357 Fir St, Oldtown",
-      "phoneNumber": 8882976543,
-      "userId": 228
-    },
-    {
-      "id": 29,
-      "fullName": "Daniel Roberts",
-      "email": "dcaniel.roberts@example.com",
-      "address": "432 Chestnut Ln, Newdale",
-      "phoneNumber": 7773987654,
-      "userId": 229
-    },
-    {
-      "id": 30,
-      "fullName": "Ella Evans",
-      "email": "eclla.evans@example.com",
-      "address": "123 Magnolia Ave, Pineville",
-      "phoneNumber": 6664987653,
-      "userId": 230
-    }
-  ],
+    "id": 1,
+    "fullName": "John Doe",
+    "email": "cjohn.doe@example.com",
+    "address": "123 Main St, Springfield",
+    "phoneNumber": 1234567890,
+    "userId": 201
+  },
+  {
+    "id": 2,
+    "fullName": "Jane Smith",
+    "email": "cane.smith@example.com",
+    "address": "456 Oak Ave, Greenville",
+    "phoneNumber": 9876543210,
+    "userId": 202
+  },
+  {
+    "id": 3,
+    "fullName": "Michael Johnson",
+    "email": "cichael.johnson@example.com",
+    "address": "789 Pine Dr, Hilltown",
+    "phoneNumber": 5551234567,
+    "userId": 203
+  },
+  {
+    "id": 4,
+    "fullName": "Emily Davis",
+    "email": "cemily.davis@example.com",
+    "address": "321 Elm St, Riverdale",
+    "phoneNumber": 6669876543,
+    "userId": 204
+  },
+  {
+    "id": 5,
+    "fullName": "William Brown",
+    "email": "cwilliam.brown@example.com",
+    "address": "654 Maple Blvd, Lakeside",
+    "phoneNumber": 4447890123,
+    "userId": 205
+  },
+  {
+    "id": 6,
+    "fullName": "Olivia Wilson",
+    "email": "colivia.wilson@example.com",
+    "address": "987 Cedar Lane, Hillview",
+    "phoneNumber": 3334567890,
+    "userId": 206
+  },
+  {
+    "id": 7,
+    "fullName": "James Anderson",
+    "email": "cjames.anderson@example.com",
+    "address": "159 Birch Ct, Meadowland",
+    "phoneNumber": 2223456789,
+    "userId": 207
+  },
+  {
+    "id": 8,
+    "fullName": "Sophia Martinez",
+    "email": "csophia.martinez@example.com",
+    "address": "753 Willow Way, Brookfield",
+    "phoneNumber": 1112345678,
+    "userId": 208
+  },
+  {
+    "id": 9,
+    "fullName": "Daniel Thomas",
+    "email": "cdaniel.thomas@example.com",
+    "address": "852 Cherry Rd, Clearview",
+    "phoneNumber": 9998765432,
+    "userId": 209
+  },
+  {
+    "id": 10,
+    "fullName": "Emma Hernandez",
+    "email": "cemma.hernandez@example.com",
+    "address": "456 Spruce St, Baytown",
+    "phoneNumber": 8887654321,
+    "userId": 210
+  },
+  {
+    "id": 11,
+    "fullName": "Liam Moore",
+    "email": "ciam.moore@example.com",
+    "address": "789 Walnut St, Greenfield",
+    "phoneNumber": 7776543210,
+    "userId": 211
+  },
+  {
+    "id": 12,
+    "fullName": "Isabella Taylor",
+    "email": "cisabella.taylor@example.com",
+    "address": "963 Ash Dr, Woodbridge",
+    "phoneNumber": 6665432109,
+    "userId": 212
+  },
+  {
+    "id": 13,
+    "fullName": "Mason White",
+    "email": "cmason.white@example.com",
+    "address": "741 Poplar Ct, Fairview",
+    "phoneNumber": 5554321098,
+    "userId": 213
+  },
+  {
+    "id": 14,
+    "fullName": "Charlotte Harris",
+    "email": "chcarlotte.harris@example.com",
+    "address": "258 Cypress Ave, Rosewood",
+    "phoneNumber": 4443210987,
+    "userId": 214
+  },
+  {
+    "id": 15,
+    "fullName": "Benjamin Clark",
+    "email": "cbenjamin.clark@example.com",
+    "address": "357 Dogwood Ln, Sunnyvale",
+    "phoneNumber": 3332109876,
+    "userId": 215
+  },
+  {
+    "id": 16,
+    "fullName": "Amelia Lewis",
+    "email": "camelia.lewis@example.com",
+    "address": "159 Redwood St, Willowville",
+    "phoneNumber": 2221098765,
+    "userId": 216
+  },
+  {
+    "id": 17,
+    "fullName": "Ethan Walker",
+    "email": "cethan.walker@example.com",
+    "address": "864 Magnolia Blvd, Hilltop",
+    "phoneNumber": 1110987654,
+    "userId": 217
+  },
+  {
+    "id": 18,
+    "fullName": "Harper Hall",
+    "email": "carper.hall@example.com",
+    "address": "975 Fir Rd, Cedar Grove",
+    "phoneNumber": 9999876543,
+    "userId": 218
+  },
+  {
+    "id": 19,
+    "fullName": "Alexander Allen",
+    "email": "calexander.allen@example.com",
+    "address": "432 Chestnut St, Harborview",
+    "phoneNumber": 8888765432,
+    "userId": 219
+  },
+  {
+    "id": 20,
+    "fullName": "Mia Young",
+    "email": "cmia.young@example.com",
+    "address": "321 Willow St, Lakewood",
+    "phoneNumber": 7777654321,
+    "userId": 220
+  },
+  {
+    "id": 21,
+    "fullName": "Elijah King",
+    "email": "eclijah.king@example.com",
+    "address": "654 Elm Ct, Midtown",
+    "phoneNumber": 6666543210,
+    "userId": 221
+  },
+  {
+    "id": 22,
+    "fullName": "Avery Scott",
+    "email": "acvery.scott@example.com",
+    "address": "876 Birch Blvd, Westwood",
+    "phoneNumber": 5555432109,
+    "userId": 222
+  },
+  {
+    "id": 23,
+    "fullName": "Sebastian Adams",
+    "email": "secastian.adams@example.com",
+    "address": "123 Spruce Dr, Eastside",
+    "phoneNumber": 4444321098,
+    "userId": 223
+  },
+  {
+    "id": 24,
+    "fullName": "Abigail Baker",
+    "email": "abcigail.baker@example.com",
+    "address": "741 Maple Ln, Southview",
+    "phoneNumber": 3333210987,
+    "userId": 224
+  },
+  {
+    "id": 25,
+    "fullName": "Jack Nelson",
+    "email": "jack.nelson@example.com",
+    "address": "258 Oak Ct, Summitville",
+    "phoneNumber": 2222109876,
+    "userId": 225
+  },
+  {
+    "id": 26,
+    "fullName": "Emily Carter",
+    "email": "ecmily.carter@example.com",
+    "address": "975 Pine Blvd, Bridgeport",
+    "phoneNumber": 1111098765,
+    "userId": 226
+  },
+  {
+    "id": 27,
+    "fullName": "Henry Mitchell",
+    "email": "hecnry.mitchell@example.com",
+    "address": "864 Cedar Dr, Crestwood",
+    "phoneNumber": 9991987654,
+    "userId": 227
+  },
+  {
+    "id": 28,
+    "fullName": "Sofia Perez",
+    "email": "socfia.perez@example.com",
+    "address": "357 Fir St, Oldtown",
+    "phoneNumber": 8882976543,
+    "userId": 228
+  },
+  {
+    "id": 29,
+    "fullName": "Daniel Roberts",
+    "email": "dcaniel.roberts@example.com",
+    "address": "432 Chestnut Ln, Newdale",
+    "phoneNumber": 7773987654,
+    "userId": 229
+  },
+  {
+    "id": 30,
+    "fullName": "Ella Evans",
+    "email": "eclla.evans@example.com",
+    "address": "123 Magnolia Ave, Pineville",
+    "phoneNumber": 6664987653,
+    "userId": 230
+  }
+],
   "entrees": [
     {
       "id": 1,
