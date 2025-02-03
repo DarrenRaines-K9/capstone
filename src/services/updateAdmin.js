@@ -5,3 +5,7 @@ export const updateAdmin = (admin) => {
 		body: JSON.stringify(admin),
     }).then((res) => res.json())
 }
+
+export const deleteAdmin = (admin) => {
+    return fetch(`http://localhost:8088/admins/${admin.id}`, {method: "DELETE"})
+}
