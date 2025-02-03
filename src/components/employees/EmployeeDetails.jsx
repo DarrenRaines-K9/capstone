@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import { getAdminById } from "../../services/adminService"
 import { useParams } from "react-router-dom"
 import "./EmployeeDetails.css"
+import { updateAdmin } from "../../services/updateAdmin"
 
 export const EmployeeDetails = () => {
     const [admin, setAdmin] = useState([])
@@ -13,32 +14,55 @@ useEffect(() => {
         setAdmin(adminObj)
     })
 }, [employeeId])
+
+const handleInputChange = (e) => {
+    setAdmin({
+      ...admin,
+      [e.target.name]: e.target.value
+    })
+  }
+
+const handleSaveChanges = () => {
+    updateAdmin({...admin}).then(() => {
+        window.alert("Employee Info Updated")
+    })
+}
+
 return (
     <section className="details">
     <header className="details-header">{admin.user?.fullName}</header>
     <div>
-        <span className="user-info">Email : </span>
-        {admin.user?.email}
+        <span className="user-info">Email:</span>
+        <div>
+        <input type="text" defaultValue={admin.user?.email} onChange={handleInputChange} name="email"/>
+        </div>
     </div>
     <div>
-        <span className="details-info">Specialty : </span>
-        {admin.title}
+        <span className="details-info">Rate:</span>
+        <div>
+        <input type="text" defaultValue={admin.rate} onChange={handleInputChange} name="rate"/>
+        </div>
     </div>
     <div>
-        <span className="details-info"> Rate : </span>
-        {admin.rate}
+        <span className="details-info"> Address:</span>
+        <div>
+        <input type="text" defaultValue={admin.address} onChange={handleInputChange} name="address"/>
+        </div>
     </div>
     <div>
-        <span className="details-info"> Address : </span>
-        {admin.address}
+        <span className="details-info">Phone Number:</span>
+        <div>
+        <input type="text" defaultValue={admin.phoneNumber} onChange={handleInputChange} name="phoneNumber"/>
+        </div>
     </div>
     <div>
-        <span className="details-info"> Phone Number : </span>
-        {admin.phoneNumber}
+        <span className="details-info">Title:</span>
+        <div>
+        <input type="text" defaultValue={admin.title} onChange={handleInputChange} name="title"/>
+        </div>
     </div>
     <div>
-        <span className="details-info"> Title: </span>
-        {admin.title}
+    <button className="save-btn" onClick={handleSaveChanges}>Save Changes</button>
     </div>
 </section>
 )

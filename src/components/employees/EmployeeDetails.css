@@ -17,3 +17,8 @@
     line-height: 3rem;
     color: var(--primary);
   }
+
+  .save-btn {
+    float: right;
+    background-color: var(--primary);
+  }
