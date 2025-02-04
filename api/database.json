@@ -79,7 +79,6 @@
   "admins": [
     {
       "id": 3,
-      "fullName": "Alice Johnson",
       "rate": "1",
       "address": "789 Pine Dr, Hilltown",
       "phoneNumber": "5551234509",
