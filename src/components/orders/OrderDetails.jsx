@@ -35,9 +35,9 @@ const handleSaveOrder = () => {
    ) {
      const orderObject = {
        id: order.id,
-       entreeId: parseInt(chosenEntrees),
-       sideId: parseInt(chosenSides),
-       drinkId: parseInt(chosenDrinks),
+       entreeId: chosenEntrees,
+       sideId: chosenSides,
+       drinkId: chosenDrinks,
        adminId: order.adminId,
        customerId: order.customerId
       }
@@ -46,6 +46,12 @@ const handleSaveOrder = () => {
       })
     }
   }
+
+  useEffect(() => {
+    setChosenDrinks(order.drinkId)
+    setChosenSides(order.sideId)
+    setChosenEntrees(order.entreeId)
+  }, [order])
 
   return (    
     <section className="details">
@@ -65,9 +71,9 @@ const handleSaveOrder = () => {
     <div>
       Entree:
        <select 
-       defaultValue={order.entreeId}
+       value={chosenEntrees ? chosenEntrees : order.entreeId}
        onChange={(event) => {
-            setChosenEntrees(event.target.value)
+            setChosenEntrees(parseInt(event.target.value))
           }}>
        {entrees.map((e) => {
         return (
@@ -79,9 +85,9 @@ const handleSaveOrder = () => {
     <div>
       Side:
       <select 
-      defaultValue={order.sideId}
+      value={chosenSides ? chosenSides : order.sideId}
       onChange={(event) => {
-              setChosenSides(event.target.value)
+              setChosenSides(parseInt(event.target.value))
             }}>
         {sides.map((s) => {
           return (
@@ -93,9 +99,9 @@ const handleSaveOrder = () => {
     <div>
     Drinks:
       <select 
-      defaultValue={order.drinkId}
+      value={chosenDrinks ? chosenDrinks : order.drinkId}
       onChange={(event) => {
-              setChosenDrinks(event.target.value)
+              setChosenDrinks(parseInt(event.target.value))
             }}>
         {drinks.map((d) => {
           return (

@@ -12,7 +12,7 @@
     },
     {
       "id": 3,
-      "email": "alicejohnson@example.com",
+      "email": "alicejohnson@ex.com",
       "isAdmin": true
     },
     {
@@ -79,10 +79,9 @@
   "admins": [
     {
       "id": 3,
-      "fullName": "Alice Johnson",
-      "rate": "20",
+      "rate": "1",
       "address": "789 Pine Dr, Hilltown",
-      "phoneNumber": 5551234567,
+      "phoneNumber": "5551234509",
       "title": "Admin",
       "userId": 3
     },
@@ -560,27 +559,27 @@
   "placedOrders": [
     {
       "id": 1,
-      "entreeId": 2,
-      "sideId": 4,
+      "entreeId": 5,
+      "sideId": 5,
       "drinkId": 3,
       "adminId": 1,
       "customerId": 1
     },
     {
       "id": 2,
-      "entreeId": 7,
+      "entreeId": 1,
       "sideId": 2,
-      "drinkId": 6,
+      "drinkId": 9,
       "adminId": 2,
       "customerId": 2
     },
     {
       "id": 3,
-      "entreeId": 8,
-      "sideId": 6,
-      "drinkId": 3,
-      "customerId": 3,
-      "adminId": 3
+      "entreeId": 9,
+      "sideId": 9,
+      "drinkId": 7,
+      "adminId": 3,
+      "customerId": 3
     },
     {
       "id": 4,
@@ -592,27 +591,27 @@
     },
     {
       "id": 5,
-      "entreeId": 6,
-      "sideId": 8,
-      "drinkId": 5,
-      "customerId": 5,
-      "adminId": 5
+      "entreeId": 7,
+      "sideId": 10,
+      "drinkId": 8,
+      "adminId": 5,
+      "customerId": 5
     },
     {
       "id": 6,
       "entreeId": 4,
       "sideId": 10,
-      "drinkId": 8,
-      "customerId": 6,
-      "adminId": 6
+      "drinkId": 4,
+      "adminId": 6,
+      "customerId": 6
     },
     {
       "id": 7,
-      "entreeId": 7,
-      "sideId": 1,
-      "drinkId": 2,
-      "customerId": 7,
-      "adminId": 7
+      "entreeId": 3,
+      "sideId": 5,
+      "drinkId": 9,
+      "adminId": 7,
+      "customerId": 7
     },
     {
       "id": 8,
@@ -624,11 +623,11 @@
     },
     {
       "id": 9,
-      "entreeId": 9,
-      "sideId": 3,
-      "drinkId": 7,
-      "customerId": 9,
-      "adminId": 9
+      "entreeId": 8,
+      "sideId": 9,
+      "drinkId": 2,
+      "adminId": 9,
+      "customerId": 9
     },
     {
       "id": 10,
