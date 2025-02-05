@@ -6,7 +6,8 @@ import { EmployeeList } from "../components/employees/EmployeeList"
 import { EmployeeDetails } from "../components/employees/EmployeeDetails"
 import { OrderList } from "../components/orders/OrderList"
 import { OrderDetails } from "../components/orders/OrderDetails"
-
+import { NewOrder} from "../components/orders/NewOrder"
+import { OrderForm } from "../components/orders/OrderForm"
 
 
 export const ApplicationViews = () => {
@@ -14,6 +15,8 @@ export const ApplicationViews = () => {
   useEffect(() => {
     setUser(JSON.parse(localStorage.getItem("meal_user")))
   }, [])
+
+  
   return (<>
     <Routes>
       <Route path="/" element={
@@ -31,6 +34,8 @@ export const ApplicationViews = () => {
         <Route path="orders">
           <Route index element={<OrderList/>}/>
           <Route  path=":orderId" element={<OrderDetails/>}/>
+          <Route path="new-order" element={<NewOrder />} />
+          <Route path="new-order/order-form" element={<OrderForm/>} />
         </Route> 
       </Route>
     </Routes >
