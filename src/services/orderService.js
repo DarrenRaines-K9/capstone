@@ -27,3 +27,14 @@ export const updateOrder = (order) => {
 		body: JSON.stringify(order),
     }).then((res) => res.json())
 }
+
+export const createCustomer = (customer) => {
+  return fetch(`http://localhost:8088/customers`, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(customer)
+    }).then((data) => data.json())
+
+}
