@@ -29,7 +29,7 @@ export const OrderList = () => {
           </div>
         </Link>
       ))}
-      <div className="order" onClick={() => {navigate("/orders/new-order")}}>new in progress</div>
+      <div> <button className="btn" onClick={() => {navigate("/orders/new-order")}}>New Order</button></div>
     </div>
   );
 };

@@ -39,9 +39,9 @@ export const EmployeeDetails = () => {
     const adminUpdates = {
       id: admin.id,
       fullName: admin.fullName,
-      rate: admin.rate,
+      rate: parseInt(admin.rate),
       address: admin.address,
-      phoneNumber: admin.phoneNumber,
+      phoneNumber: parseInt(admin.phoneNumber),
       title: admin.title,
       userId: user.id
     };
