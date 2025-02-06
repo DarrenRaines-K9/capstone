@@ -38,3 +38,13 @@ export const createCustomer = (customer) => {
     }).then((data) => data.json())
 
 }
+
+export const placeNewOrder = (placedOrder) => {
+    return fetch(`http://localhost:8088/placedOrders`, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(placedOrder)
+    }).then((data) => data.json())
+}
