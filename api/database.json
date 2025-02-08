@@ -81,8 +81,8 @@
       "id": 1,
       "fullName": "John Doe",
       "rate": 30,
-      "address": "989 Wine Dr, Stilltow",
-      "phoneNumber": 2222,
+      "address": "989 ",
+      "phoneNumber": 6152222222,
       "title": "Admin",
       "userId": 1
     },
@@ -448,6 +448,41 @@
       "address": "test5",
       "phoneNumber": 11111111,
       "id": 40
+    },
+    {
+      "fullName": "new customer",
+      "email": "customer email.email.com",
+      "address": "3333 here ",
+      "phoneNumber": 111111111,
+      "id": 41
+    },
+    {
+      "fullName": "111",
+      "email": "111",
+      "address": "111",
+      "phoneNumber": 111,
+      "id": 42
+    },
+    {
+      "fullName": "qqq",
+      "email": "qqq",
+      "address": "qqq",
+      "phoneNumber": 111111,
+      "id": 43
+    },
+    {
+      "fullName": "11",
+      "email": "11",
+      "address": "11",
+      "phoneNumber": 11,
+      "id": 44
+    },
+    {
+      "fullName": "Raeisha Cray Cray",
+      "email": "CRAYKay@gmail.com",
+      "address": "123 Dont Try Me ave.",
+      "phoneNumber": 225557777,
+      "id": 45
     }
   ],
   "entrees": [
@@ -609,9 +644,9 @@
   "placedOrders": [
     {
       "id": 3,
-      "entreeId": 3,
-      "sideId": 6,
-      "drinkId": 7,
+      "entreeId": 1,
+      "sideId": 1,
+      "drinkId": 1,
       "adminId": 3,
       "customerId": 3
     },
@@ -702,6 +737,46 @@
       "adminId": 3,
       "customerId": 40,
       "id": 14
+    },
+    {
+      "entreeId": 2,
+      "sideId": 2,
+      "drinkId": 2,
+      "adminId": 1,
+      "customerId": 41,
+      "id": 15
+    },
+    {
+      "entreeId": 3,
+      "sideId": 5,
+      "drinkId": 5,
+      "adminId": 1,
+      "customerId": 42,
+      "id": 16
+    },
+    {
+      "entreeId": 6,
+      "sideId": 6,
+      "drinkId": 5,
+      "adminId": 1,
+      "customerId": 43,
+      "id": 17
+    },
+    {
+      "entreeId": 6,
+      "sideId": 6,
+      "drinkId": 9,
+      "adminId": 1,
+      "customerId": 44,
+      "id": 18
+    },
+    {
+      "entreeId": 2,
+      "sideId": 2,
+      "drinkId": 10,
+      "adminId": 1,
+      "customerId": 45,
+      "id": 19
     }
   ]
 }
