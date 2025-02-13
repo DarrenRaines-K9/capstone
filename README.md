@@ -94,7 +94,16 @@ When: the User(Admin) clicks on (Submit)
 Then: The User(Admin) should see a window alert (Order Submitted)
 
 ## Installation
+*Run these commands one at a time 
 
+```sh
+git clone git@github.com:DarrenRaines-K9/capstone.git
+cd capstone
+cd api 
+json-server database.json -p 8088
+..
+npm run dev
+```
 
 
 
