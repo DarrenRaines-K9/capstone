@@ -744,54 +744,6 @@
       "adminId": 3,
       "customerId": 40,
       "id": 14
-    },
-    {
-      "entreeId": 2,
-      "sideId": 2,
-      "drinkId": 2,
-      "adminId": 1,
-      "customerId": 41,
-      "id": 15
-    },
-    {
-      "entreeId": 3,
-      "sideId": 5,
-      "drinkId": 5,
-      "adminId": 1,
-      "customerId": 42,
-      "id": 16
-    },
-    {
-      "entreeId": 6,
-      "sideId": 6,
-      "drinkId": 5,
-      "adminId": 1,
-      "customerId": 43,
-      "id": 17
-    },
-    {
-      "entreeId": 6,
-      "sideId": 6,
-      "drinkId": 9,
-      "adminId": 1,
-      "customerId": 44,
-      "id": 18
-    },
-    {
-      "entreeId": 2,
-      "sideId": 2,
-      "drinkId": 10,
-      "adminId": 1,
-      "customerId": 45,
-      "id": 19
-    },
-    {
-      "id": 20,
-      "entreeId": 5,
-      "sideId": 10,
-      "drinkId": 1,
-      "adminId": 1,
-      "customerId": 46
     }
   ]
 }
