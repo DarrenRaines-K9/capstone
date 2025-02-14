@@ -160,11 +160,11 @@
     },
     {
       "id": 10,
-      "rate": 4,
-      "title": "Admin",
       "fullName": "Henry Moore",
+      "rate": 4,
       "address": "456 Spruce St, Baytown",
-      "phoneNumber": 8887654321,
+      "phoneNumber": 888888888,
+      "title": "Admin",
       "userId": 10
     }
   ],
@@ -483,6 +483,13 @@
       "address": "123 Dont Try Me ave.",
       "phoneNumber": 225557777,
       "id": 45
+    },
+    {
+      "fullName": "Nana ",
+      "email": "nana@nanaemail.com",
+      "address": "222 nana address ",
+      "phoneNumber": 2222222222,
+      "id": 46
     }
   ],
   "entrees": [
@@ -777,6 +784,14 @@
       "adminId": 1,
       "customerId": 45,
       "id": 19
+    },
+    {
+      "id": 20,
+      "entreeId": 5,
+      "sideId": 10,
+      "drinkId": 1,
+      "adminId": 1,
+      "customerId": 46
     }
   ]
 }
