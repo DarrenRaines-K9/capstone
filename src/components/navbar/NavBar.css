@@ -4,8 +4,11 @@
     flex-wrap: nowrap;
     background-color: var(--dark);
     margin: 0;
-    width: 100vw;
+    width: auto;
     padding: 0.5rem;
+    border: 1px solid var(--outline);
+    border-radius: 0.5rem;
+    box-shadow: 1px 2px 5px lightgray;
     
   }
   
