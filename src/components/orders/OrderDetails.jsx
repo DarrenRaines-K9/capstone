@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { getOrderById, getAllEntrees, getAllSides, getAllDrinks, updateOrder } from "../../services/orderService";
 import { useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import "./OrderDetails.css"
 
 export const OrderDetails = () => {
@@ -13,6 +13,7 @@ export const OrderDetails = () => {
   const [entrees, setEntrees] = useState([])
   const [chosenEntrees, setChosenEntrees] = useState(0)
   const { orderId } = useParams();
+  const navigate = useNavigate()
 
   useEffect(() => {
     getOrderById(orderId).then((o) => {
@@ -45,6 +46,10 @@ const handleSaveOrder = () => {
         window.alert("Order Updated")
       })
     }
+  }
+
+  const handleBack = () => {
+    navigate("/orders")
   }
 
   useEffect(() => {
@@ -112,6 +117,9 @@ const handleSaveOrder = () => {
     </div>
     <div>
       <button className="btn" onClick={handleSaveOrder}>Save Changes</button>
+    </div>
+    <div>
+      <button className="btn" onClick={handleBack}>Back</button>
     </div>
 </section>
   )
