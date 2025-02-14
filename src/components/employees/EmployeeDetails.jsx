@@ -1,17 +1,18 @@
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import "./EmployeeDetails.css";
 import {
   deleteAdmin,
   updateAdmin,
   getAdminById,
-  updateUser
+  updateUser,
 } from "../../services/adminService";
 
 export const EmployeeDetails = () => {
   const [admin, setAdmin] = useState([]);
   const { employeeId } = useParams();
   const [user, setUser] = useState("");
+  const navigate = useNavigate()
 
   useEffect(() => {
     getAdminById(employeeId).then((data) => {
@@ -28,13 +29,13 @@ export const EmployeeDetails = () => {
       [e.target.name]: e.target.value,
     });
   };
-  
+
   const handleEmailChange = (e) => {
-  setUser({
-    ...user,
-    [e.target.name]: e.target.value
-  })
-}
+    setUser({
+      ...user,
+      [e.target.name]: e.target.value,
+    });
+  };
   const handleSaveChanges = () => {
     const adminUpdates = {
       id: admin.id,
@@ -43,21 +44,24 @@ export const EmployeeDetails = () => {
       address: admin.address,
       phoneNumber: parseInt(admin.phoneNumber),
       title: admin.title,
-      userId: user.id
+      userId: user.id,
     };
 
     const userUpdates = {
       id: user.id,
       email: user.email,
-      isAdmin: user.isAdmin
+      isAdmin: user.isAdmin,
     };
 
     updateAdmin(adminUpdates).then(() => {
-      updateUser(userUpdates).then(() =>
-      window.alert("Employee Info Updated"));
+      updateUser(userUpdates).then(() => window.alert("Employee Info Updated"));
     });
   };
-  
+
+  const handleBack = () => {
+    navigate("/employees")
+  }
+
   const handleDeleteEmployee = () => {
     deleteAdmin({ ...admin }).then(() => {
       window.alert("Employee Deleted");
@@ -123,11 +127,14 @@ export const EmployeeDetails = () => {
         </div>
       </div>
       <div>
+        <button className="btn" onClick={handleDeleteEmployee}>
+          Delete
+        </button>
         <button className="btn" onClick={handleSaveChanges}>
           Save Changes
         </button>
-        <button className="btn" onClick={handleDeleteEmployee}>
-          Delete
+        <button className="btn" onClick={handleBack}>
+          Back
         </button>
       </div>
     </section>
