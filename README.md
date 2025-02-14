@@ -36,62 +36,64 @@ https://miro.com/app/board/uXjVLrobU3Y=/?share_link_id=656733714841
 ![HTML5](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Git](https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white) ![JSON Server](https://img.shields.io/badge/JSON_Server%20-%232a2e2a.svg?&style=for-the-badge&logo=JSON&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/VSCode%20-%23007ACC.svg?&style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 # How Does It Work?
+<p>
 
-Given: the User(Admin) wants to (Login)
-When: the User(Admin) clicks on (Login)
-Then: The User(Admin) should be navigated to the (Dashboard)
+`Given`: the User(Admin) wants to (Login)<br>
+`When`: the User(Admin) clicks on (Login)<br>
+`Then`: The User(Admin) should be navigated to the (Dashboard)<br>
 
-Given: the User(Admin) wants to (Login)
-When: the User(Admin) clicks on (Login)
-Then: The User(Admin) should be navigated to the (Dashboard)
+`Given`: the User(Admin) wants to (Login)<br>
+`When`: the User(Admin) clicks on (Login)<br>
+`Then`: The User(Admin) should be navigated to the (Dashboard)<br>
 
-Given: the User(Admin) wants to (ViewOrders)
-When: the User(Admin) clicks on (Orders)
-Then: The User(Admin) should be navigated to the (Orders Page)
+`Given`: the User(Admin) wants to (ViewOrders)<br>
+`When`: the User(Admin) clicks on (Orders)<br>
+`Then`: The User(Admin) should be navigated to the (Orders Page)<br>
 
-Given: the User(Admin) wants to view an (OrdersDetails)
-When: the User(Admin) clicks on the  (Order)
-Then: The User(Admin) should be navigated to the (OrderDetails Page)
+`Given`: the User(Admin) wants to view an (OrdersDetails)<br>
+`When`: the User(Admin) clicks on the  (Order)<br>
+`Then`: The User(Admin) should be navigated to the (OrderDetails Page)<br>
 
-Given: the User(Admin) wants to delete an (Order)
-When: the User(Admin) clicks  on the (DeleteOrder Button)
-Then: The User(Admin) should see an alert window (Order Deleted) and redirected to the (Orders Page)
+`Given`: the User(Admin) wants to delete an (Order)<br>
+`When`: the User(Admin) clicks  on the (DeleteOrder Button)<br>
+`Then`: The User(Admin) should see an alert window (Order Deleted) and redirected to the (Orders Page)<br>
 
-Given: the User(Admin) wants to edit an (OrdersDetails)
-When: the User(Admin) clicks on the  (EditOrder Button)
-Then: The User(Admin) should be navigated to the (Update OrderDetails Page)
+`Given`: the User(Admin) wants to edit an (OrdersDetails)<br>
+`When`: the User(Admin) clicks on the  (EditOrder Button)<br>
+`Then`: The User(Admin) should be navigated to the (Update OrderDetails Page)<br>
 
-Given: the User(Admin) has updated the (OrdersDetails)
-When: the User(Admin) clicks on the  (Update Button)
-Then: The User(Admin) should see a window alert (OrderDetails Updated) and the reflected changes should appear 
+`Given`: the User(Admin) has updated the (OrdersDetails)<br>
+`When`: the User(Admin) clicks on the  (Update Button)<br>
+`Then`: The User(Admin) should see a window alert (OrderDetails Updated) and the reflected changes should appear <br>
 
-Given: the User(Admin) wants to view (Employees)
-When: the User(Admin) clicks on the (Employees)
-Then: The User(Admin) should be navigated to the (Employees Page)
+`Given`: the User(Admin) wants to view (Employees)<br>
+`When`: the User(Admin) clicks on the (Employees)<br>
+`Then`: The User(Admin) should be navigated to the (Employees Page)<br>
 
-Given: the User(Admin) wants to edit an (EmployeeDetails)
-When: the User(Admin) clicks on the  (Update Button)
-Then: The User(Admin) should be navigated to the (Update EmployeeDetails Page)
+`Given`: the User(Admin) wants to edit an (EmployeeDetails)<br>
+`When`: the User(Admin) clicks on the  (Update Button)<br>
+`Then`: The User(Admin) should be navigated to the (Update EmployeeDetails Page)<br>
 
-Given: the User(Admin) has updated the (EmployeeDetails)
-When: the User(Admin) clicks on the  (Update Button)
-Then: The User(Admin) should see a window alert (EmployeeDetails Updated) and the reflected changes should appear 
+`Given`: the User(Admin) has updated the (EmployeeDetails)<br>
+`When`: the User(Admin) clicks on the  (Update Button)<br>
+`Then`: The User(Admin) should see a window alert (EmployeeDetails Updated) and the reflected changes should appear <br>
 
-Given: the User(Admin) wants to delete an (Employee)
-When: the User(Admin) clicks on the  (Delete Button)
-Then: The User(Admin) should see a window alert (Employee Deleted) and the reflected changes should appear 
+`Given`: the User(Admin) wants to delete an (Employee)<br>
+`When`: the User(Admin) clicks on the  (Delete Button)<br>
+`Then`: The User(Admin) should see a window alert (Employee Deleted) and the reflected changes should appear <br>
 
-Given: the User(Admin) wants to (Place Order)
-When: the User(Admin) clicks on (Place Order)
-Then: The User(Admin) directed to the (Place Order Page)
+`Given`: the User(Admin) wants to (Place Order)<br>
+`When`: the User(Admin) clicks on (Place Order)<br>
+`Then`: The User(Admin) directed to the (Place Order Page)<br>
 
-Given: the User(Admin) has selected an entree,side, and drink and wants to go to (Order Details)
-When: the User(Admin) clicks on (Order Details)
-Then: The User(Admin) directed to the (Order Form)
+`Given`: the User(Admin) has selected an entree,side, and drink and wants to go to (OrderDetails)<br>
+`When`: the User(Admin) clicks on (Order Details)<br>
+`Then`: The User(Admin) directed to the (Order Form)<br>
 
-Given: the User(Admin) wants to (Submit an Order)
-When: the User(Admin) clicks on (Submit)
-Then: The User(Admin) should see a window alert (Order Submitted)
+`Given`: the User(Admin) wants to (Submit an Order)<br>
+`When`: the User(Admin) clicks on (Submit)<br>
+`Then`: The User(Admin) should see a window alert (Order Submitted)<br>
+</p>
 
 ## Installation
 *Run these commands one at a time 
